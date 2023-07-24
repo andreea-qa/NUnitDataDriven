@@ -8,11 +8,10 @@ namespace NUnitDataDriven
     public class NUnitTest
     {
         private static IWebDriver driver;
-       
+
         [SetUp]
         public void Setup()
         {
-
             driver = new ChromeDriver();
         }
 
